@@ -1,5 +1,5 @@
 {
-  "name": "nodewatcher",
+  "name": "n-supervisor",
   "version": "1.0.0",
   "description": "restart node process , whenever files changes in your project",
   "main": "main.js",
@@ -9,6 +9,10 @@
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rahul-icoder/n-supervisor.git"
+  },
+  "author": "Rahul",
   "license": "ISC"
 }
