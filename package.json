@@ -1,5 +1,5 @@
 {
-  "name": "nodewatch",
+  "name": "nodewatcher",
   "version": "1.0.0",
   "description": "restart node process , whenever files changes in your project",
   "main": "main.js",
