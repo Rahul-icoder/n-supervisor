@@ -2,4 +2,6 @@
 
 ### NOTE : Its is for fun not used in any project.
 
-## Previous Version before 3.0.0
+## Previous version before 3.0.0 not working.
+
+## Working version - 3.0.0
