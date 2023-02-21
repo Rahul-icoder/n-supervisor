@@ -1,12 +1,12 @@
 {
   "name": "n-supervisor",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "description": "restart node process , whenever files changes in your project",
   "main": "main.js",
-  "bin": "main.js",
+  "bin": "./main.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node main.js",
+    "n-supervisor": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

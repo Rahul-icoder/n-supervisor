@@ -88,6 +88,7 @@ function main() {
   process.stdin.on("data", (data) => {
     const input = data.toString().trim();
     if (input === "rs") {
+      findFilePath(module.children);
       restartNodeProcess(targetFilePath);
     }
   });
