@@ -3,6 +3,7 @@
 const fs = require("fs");
 const { spawn } = require("child_process");
 const process = require("process");
+const { homedir } = require("os");
 
 // ignore path
 const ignorePaths = [
@@ -68,12 +69,13 @@ const checkFileChanges = (filePaths, targetFilePath) => {
 };
 
 function main() {
+  const HOME_PATH = process.cwd();
   const targetFilePath = process.argv[2];
   if (!targetFilePath) {
     console.log("please provide valid target file name!");
     return;
   }
-  const PARENT_PATH = `${__dirname}/${targetFilePath}`;
+  const PARENT_PATH = `${HOME_PATH}/${targetFilePath}`;
   require(PARENT_PATH);
   findFilePath(module.children);
   //   start node process

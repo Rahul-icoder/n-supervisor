@@ -1,6 +1,6 @@
 {
   "name": "n-supervisor",
-  "version": "1.2.2",
+  "version": "3.0.0",
   "description": "restart node process , whenever files changes in your project",
   "main": "main.js",
   "bin": "./main.js",
